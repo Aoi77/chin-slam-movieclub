@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 16px;
+    line-height: 2;
+}
+
+p,h1.h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color:darkgreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    background-color: #f3f3f3;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.global-nav {
+    float: right;
+}
+
+.global-nav li {
+    list-style: none;
+    float: left;
+    margin: 0 20px;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.global-nav li a:hover {
+    border-bottom: 2px solid darkgreen;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#wrap {
+    clear: both;
+}
+
+.content {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer small {
+    font-size: 12px;
+}
+
+#index h1 {
+    font-size: 140px;
+    line-height: 1;
+    color: #ffffff;
+    font-family: 'Shadows Into Light', cursive;
+    margin:0 0 100px 0;
+    border-bottom: none;
+}
+
+#index p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#index .btn a{
+    background-color: darkgreen;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+    display: block;
+    width: 200px;
+    text-align: center;
+    border-radius: 9px;
+    border: solid 5px darkgreen;
+}
+
+#index .btn a:hover {
+    background-color: #ffffff;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+
+#index footer {
+    width: 960px;
+    text-align: left;
+    margin: 100px auto 0 auto;
+    background-color: transparent;
+}
+
+#index {
+    background-image: url(../images/index.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#about {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#wrap{
+    background-color: #ffffff;
+    padding: 35px 0px;
+}
+
+#about .main-center {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.bulk-image {
+    height: 278px;
+    width: 678px;
+    object-fit: cover;
+}
+
+.bulkup {
+    position: relative;
+}
+
+.bulk-logo {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    color: #ffffff;
+    font-size: 80px;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-shadow: 2px 2px 5px #333333
+}
+
+.mid-soccer {
+    position: relative;
+}
+
+.ms-image {
+    height: 278px;
+    width: 678px;
+    object-fit: cover;
+}
+
+.ms-logo {
+    position: absolute;
+    top:110px;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-shadow: 2px 2px 2px #333;
+    left: 70px
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-logo {
+    position: absolute;
+    top: 80px;
+    left: 133px;
+    color: darkorange;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px #333333;
+
+}
+
+.bulkup,.hero,.mid-soccer{
+    border-top: 1px solid #333333;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    border-bottom: 1px solid #cccccc;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.icon:before {
+    content: "";
+    border-left: 7px solid #9cb4a4;
+    padding-right: 10px;
+}
+
+#index #wrap {
+    background-color: transparent;
+    margin-top: 0;
+    padding: 0;
+}
+
+#new {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.main {
+    width: 740px;
+    margin: 0 10px;
+    float: left;
+}
+
+.sidebar {
+    float: right;
+    width: 180px;
+    margin: 0 10px 0 30px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.newreview img {
+    width: 180px;
+    height: 240px;
+}
+
+.review {
+    width: 30%;
+    float: left;
+    text-align: center;
+    border: solid 3px #0B3B0B;
+    margin: 5px;
+    border-radius: 15px;
+    height: 340px;
+}
+
+.m-title {
+    display: block;
+    font-size: 15px;
+    margin:10px 0 10px
+}
+
+.review p {
+    font-size: 12px;
+    width: 90%;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.review h2 {
+    margin-bottom: 0px;
+}
+
+#review-page tr {
+    height: 80px;
+}
+
+.review-table th{
+    border: solid 1px #333333;
+    width: 200px;
+    font-size: 25px
+}
+
+.review-table td{
+    border:1px solid #333333;
+}
+
+#review-page table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 90%;
+    margin:  0 auto 50px auto;
+}
+
+
+.r-template td {
+    border: 1px solid #333333;
+}
+
+.r-template th {
+    border: 1px solid #333333;
+    width: 200px;
+}
+
+.star {
+    font-size: 25px;
+    text-align: left;
+}
+
+.image {
+    padding: 0 150px;
+}
+
+#review-page {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.review-table .star {
+    width: 150px;
+}
+
+.r-header {
+    font-weight: 100;
+    margin: 100px 0 20px 0;
+    
+}
+
+.pokosuke-image {
+    float: left;
+    
+}
+
+.neconeco-image {
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+}
+
+.aoi-image {
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+}
+
+.members {
+    margin-top: 100px;
+}
+
+.pokosuke,.neconeco,.aoi {
+    margin-top: 100px;
+}
+
+.members h2{
+    margin-left: 180px;
+    font-size: 30px;
+}
+
+.members p {
+    margin-left: 180px;
+}
+
+#member {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#review-page .title {
+    text-align: center;
+}
+
+#review-page .image {
+    width: 360px;
+    margin-left: 50px;
+}
