@@ -128,7 +128,7 @@ footer small {
 }
 
 #index {
-    background-image: url(../images/index.jpg);
+    background-image: url(../images/index2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -325,7 +325,7 @@ h2 {
 
 .score {
     font-size: 25px;
-    text-align: center;
+    text-align: left;
 }
 
 .image {
@@ -354,6 +354,15 @@ h2 {
     font-weight: 100;
     margin: 30px 0 20px 0;
     
+}
+
+.story {
+    font-size: 10px;
+}
+
+.story span {
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .pokosuke-image {
